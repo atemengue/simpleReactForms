@@ -14,7 +14,7 @@ class Forms extends Component {
 
   onSubmit = async e => {
     e.preventDefault();
-    const url = "http://localhost:5000/api/form";
+     const url = "https://nodemain-q14b2ttwp.now.sh/api/form";
     const { name, email, message, subject } = this.state;
     const data = { name, email, message, subject };
     try {
