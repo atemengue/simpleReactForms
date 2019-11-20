@@ -15,7 +15,7 @@ class Forms extends Component {
   onSubmit = async e => {
     e.preventDefault();
     
-     const url = "https://nodemain-jbbv5r8c5.now.sh/api/form";
+     const url = " " //add server url;
     const { name, email, message, subject } = this.state;
     const data = { name, email, message, subject };
     try {
